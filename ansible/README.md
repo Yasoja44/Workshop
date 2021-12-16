@@ -9,9 +9,9 @@ ANSIBLE DEMO
         [ansible_clients]
         129.154.37.8 ansible_user=ubuntu ansible_pass= ansible_ssh_private_key_file=~/.ssh/mykey1.pem 
    
-     #ansible_user = username /n 
-     #ansible_pass = password (null here because no password) /n 
-     #ansible_ssh_private_key_file = location of the ssh private key for the client instance /n 
+     #ansible_user : username 
+     #ansible_pass : password (null here because no password) 
+     #ansible_ssh_private_key_file : location of the ssh private key for the client instance 
        
 3) create a sample playbook for the configurations that should be done to the client collection in the host inventory.
 
